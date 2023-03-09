@@ -87,7 +87,7 @@ public class CSVProcessor {
         return productList;
     }
 
-    private String cleanUpData(String line) {
+    public String cleanUpData(String line) {
         Pattern pattern = Pattern.compile("(\"[^\",]+),([^\"]+\")");
         Matcher matcher = pattern.matcher(line);
         while (matcher.find()){

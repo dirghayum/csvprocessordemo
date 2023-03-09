@@ -59,7 +59,7 @@ public class Product {
         } else if (color == 1) {
             return "black";
         } else if (color % 7 == 0) {
-            return "marron";
+            return "maroon";
         } else if (color % 6 == 0) {
             return "yellow";
         } else if (color % 5 == 0) {
